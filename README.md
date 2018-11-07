@@ -1,30 +1,18 @@
 # Mi
-<html>
- 
-<head>
-<title>Mi primer documento en HTML por Jose Gallardo</title>
-</head>
- 
-<body>
-<h1>Mi titulo en grande</h1>
-<h4>diferentes letras cursiva y negrita en mi documento HTML</h4>
-<p>En este parrafo veremos la diferencia entre una letra en <strong>Negrita</strong> y otra en  <em>Cursiva</em>.</p>
+# Primera tarea de lenguaje de marcas
 
-<h2>3 clases de listas en mi documento HTML</h2>
-<ul>
+#### A) Crea documents
 
-<li type="circle">Esto es un tipo de punto.</li>
+*   **HTML** En el documento HTML Cambiamos la extensión a .html y lo abrimos con el navegador dejamos el docuemnto en el repositorio.
+*   **XML** En el documento XML Cambiamos la extensión a .xml luego lo abrimos con una aplicación de calculo en mi caso EXCEL se ve correctamente, dejo el documento en el repositorio
+*   **RTF** En el documento RTF Cambiamos la extensión a .rtf lo abrimos con aplicación de texto en mi caso open office y funciona correctamente, dejo el documento en el repositorio
 
-<li type="square">Este es otro.</li>
+#### B) Omple un repositori GitHub
 
-<li type="disc">Y este es otro diferente.</li>
+Nos registramos en la plataforma y luego subimos los documentos
 
-</ul>
+## C) Usa Rawgit per veure html de GitHub
 
-<h3>Un enlace en mi documento HTML</h3>
-<a href="https://github.com/jgallardo18/Mi">Enlace hacia Github</a>
+Abrimos el fichero HTML de nuestro repositorio y lo pegamos en GIFHACK luego nos crea un enlace que se nos ve correctamente en el navegador, dejamos enlace a continuación:
 
-
-</body>
- 
-</html>
+[githack.com](https://raw.githack.com/jgallardo18/Mi/master/Ejemplo%20HTML%20abrir%20con%20navegador.html")
