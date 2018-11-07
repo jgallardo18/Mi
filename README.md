@@ -13,6 +13,6 @@ Nos registramos en la plataforma y luego subimos los documentos
 
 ## C) Usa Rawgit per veure html de GitHub
 
-Abrimos el fichero HTML de nuestro repositorio y lo pegamos en GIFHACK luego nos crea un enlace que se nos ve correctamente en el navegador, dejamos enlace a continuación:
+Abrimos el fichero HTML de nuestro repositorio y lo pegamos en _GIFHACK_ luego nos crea un enlace que se nos ve correctamente en el navegador, dejamos enlace a continuación:
 
 [githack.com](https://raw.githack.com/jgallardo18/Mi/master/Ejemplo%20HTML%20abrir%20con%20navegador.html")
