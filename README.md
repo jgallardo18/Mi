@@ -9,7 +9,7 @@
 
 #### B) Omple un repositori GitHub
 
-Nos registramos en la plataforma y luego subimos los documentos
+Nos registramos en la plataforma y luego subimos los documentos HTML, XML y RTF
 
 ## C) Usa Rawgit per veure html de GitHub
 
@@ -18,3 +18,6 @@ Abrimos el fichero HTML de nuestro repositorio y lo pegamos en _GIFHACK_ luego n
 [githack.com](https://raw.githack.com/jgallardo18/Mi/master/Ejemplo_HTML_abrir_con_navegador.html) 
 
  https://raw.githack.com/jgallardo18/Mi/master/Ejemplo_HTML_abrir_con_navegador.html
+
+## D) Edita README.md explicant el que has fet
+Realizamos y explicamos lo que hemos hecho e incluimos titulos, letra en cursiva y en negrita, enlaces y listas con Markdown.
