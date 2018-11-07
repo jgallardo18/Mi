@@ -15,9 +15,6 @@ Nos registramos en la plataforma y luego subimos los documentos
 
 Abrimos el fichero HTML de nuestro repositorio y lo pegamos en _GIFHACK_ luego nos crea un enlace que se nos ve correctamente en el navegador, dejamos enlace a continuación:
 
-[githack.com](https://raw.githack.com/jgallardo18/Mi/master/Ejemplo_HTML_abrir_con_navegador.html") 
+[githack.com](https://raw.githack.com/jgallardo18/Mi/master/Ejemplo_HTML_abrir_con_navegador.html) 
 
-Después de subir la url al documento README no se ve correctamente, si copias y pegas si se ve, pero si pinchamos directamten en el enlace nos sale un error 404 y nos cambia la URL https://raw.githubusercontent.com/jgallardo18/Mi/master/Ejemplo_HTML_abrir_con_navegador.html%22:
-
-[https://raw.githack.com/jgallardo18/Mi/master/Ejemplo_HTML_abrir_con_navegador.html 
-](https://raw.githack.com/jgallardo18/Mi/master/Ejemplo_HTML_abrir_con_navegador.html") 
+ https://raw.githack.com/jgallardo18/Mi/master/Ejemplo_HTML_abrir_con_navegador.html
