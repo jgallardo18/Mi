@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE Libreria SYSTEM "Libreria.dtd">
+<Libreria>  
+   <Libro id="KOYHH">  
+      <Autor>Fernando, Aramburu</Autor>  
+      <Titulo>PATRIA</Titulo>  
+      <Genero>Narrativa</Genero> 
+	  <Editorial>TUSQUETS</Editorial>
+      <Precio>29.95</Precio>  
+      <FechaPublicacion>10-10-2017</FechaPublicacion>  
+      <Descripcion>Nos habla de la imposibilidad de olvidar y de la necesidad de
+	  perdón en una comunidad rota por el fanatismo político.</Descripcion>  
+   </Libro>  
+   <Libro id="JHGTY">  
+      <Autor>Antonio, Salas</Autor>  
+      <Titulo>LOS HOMBRES QUE SUSURRAN A LAS MÁQUINAS</Titulo>  
+      <Genero>No ficcion</Genero>  
+	  <Editorial>ESPASA</Editorial>
+      <Precio>15.95</Precio>  
+      <FechaPublicacion>18-09-2015</FechaPublicacion>  
+      <Descripcion>En el siglo XXI no existe nada más urgente que conocer 
+	  cómo funciona la red. Porque todos estamos en ella.
+	  Ordenador y móvil son nuestro pasaporte al nuevo mundo.</Descripcion>  
+   </Libro>  
+   <Libro id="HGYFF">  
+      <Autor>Robert, Kiyoski</Autor>  
+      <Titulo>PADRE RICO, PADRE POBRE</Titulo>  
+      <Genero>Lecturas complementarias</Genero> 
+	  <Editorial>AGUILAR</Editorial>
+      <Precio>8.95</Precio>  
+      <FechaPublicacion>31-12-2004</FechaPublicacion>  
+      <Descripcion>Aprender qué debe enseñar a sus hijos acerca
+	  del dinero para su futuro éxito financiero.</Descripcion>  
+   </Libro>  
+</Libreria>  

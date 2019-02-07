@@ -1,0 +1,11 @@
+
+   <!ELEMENT Libreria (Libro)*>
+   <!ELEMENT Libro (Autor,Titulo,Genero,Editorial,Precio,FechaPublicacion,Descripcion)>
+   <!ATTLIST Libro id ID #REQUIRED>
+   <!ELEMENT Autor (#PCDATA)>
+   <!ELEMENT Titulo (#PCDATA)>
+   <!ELEMENT Genero (#PCDATA)>
+   <!ELEMENT Editorial (#PCDATA)>
+   <!ELEMENT Precio (#PCDATA)>
+   <!ELEMENT FechaPublicacion ANY>
+   <!ELEMENT Descripcion (#PCDATA)>

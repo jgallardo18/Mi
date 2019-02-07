@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Libreria">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="Libro" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="Autor" type="xs:string"/>
+<xs:element name="Titulo" type="xs:string"/>
+<xs:element name="Genero" type="xs:string"/>
+<xs:element name="Editorial">
+<xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([A-Z])*"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+<xs:element name="Precio" type="xs:decimal"/>
+<xs:element name="FechaPublicacion" type="xs:date"/>
+<xs:element name="Descripcion">
+<xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:minLength value="5"/>
+      <xs:maxLength value="200"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="id" type="xs:string"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
