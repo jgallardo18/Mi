@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+
+ <category>
+<pattern>Todo listo para mi viaje *</pattern> <template></template>
+</category>
+<!-- insert your AIML categories here -->
+
+
+<category>
+<pattern>Todo listo para mi viaje *</pattern>
+<template>
+<button>
+<text></text>
+<url></url>
+</button>
+</template>
+</category>
+<!-- Aplicación -->
+<category>
+<pattern>Necesito la aplicacion  *</pattern>
+<template>
+Aquí puedes descargar la aplicación <star/>.
+<button>
+<text>Haz clic aquí</text>
+<url>https://play.google.com/store/search?q=<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Necesito la aplicacion*</pattern>
+<template>
+<think><set name="it"><star/></set></think>
+Aquí puedes descargar la aplicación <star/>.
+<button>
+<text>Haz clic aquí</text>
+<url>https://play.google.com/store/search?q=<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Aplicacion</pattern>
+<template>
+<condition name="it">
+<li value="*"><srai>¿Que aplicación necesitas? <get name="it"/></srai></li>
+<li>¿Que aplicación necesitas?</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>¿Que aplicación necesitas?</that>
+<template>
+<srai>Necesito la aplicacion <star/></srai>
+</template>
+</category>
+<!-- Peliculas -->
+<category>
+<pattern>Necesito la pelicula  *</pattern>
+<template>
+Aquí puedes descargar la pelicula <star/>.
+<button>
+<text>Haz clic aquí</text>
+<url>https://play.google.com/store/search?q=<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Necesito la pelicula*</pattern>
+<template>
+<think><set name="it"><star/></set></think>
+Aquí puedes descargar la pelicula <star/>.
+<button>
+<text>Haz clic aquí</text>
+<url>https://play.google.com/store/search?q=<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Pelicula</pattern>
+<template>
+<condition name="it">
+<li value="*"><srai>¿Que pelicula necesitas? <get name="it"/></srai></li>
+<li>¿Que pelicula necesitas?</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>¿Que pelicula necesitas?</that>
+<template>
+<srai>Necesito la pelicula <star/></srai>
+</template>
+</category>
+<!-- Musica -->
+<category>
+<pattern>Necesito la musica de  *</pattern>
+<template>
+Aquí puedes descargar la musica de <star/>.
+<button>
+<text>Haz clic aquí</text>
+<url>https://play.google.com/store/search?q=<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Necesito la musica de*</pattern>
+<template>
+<think><set name="it"><star/></set></think>
+Aquí puedes descargar la musica de <star/>.
+<button>
+<text>Haz clic aquí</text>
+<url>https://play.google.com/store/search?q=<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>musica</pattern>
+<template>
+<condition name="it">
+<li value="*"><srai>¿Que musica necesitas? <get name="it"/></srai></li>
+<li>¿Que musica necesitas?</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>¿Que musica necesitas?</that>
+<template>
+<srai>Necesito la musica de <star/></srai>
+</template>
+</category>
+<!-- Ebook -->
+<category>
+<pattern>Necesito el ebook  *</pattern>
+<template>
+Aquí puedes descargar el ebook <star/>.
+<button>
+<text>Haz clic aquí </text>
+<url>https://play.google.com/store/search?q=<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Necesito el ebook*</pattern>
+<template>
+<think><set name="it"><star/></set></think>
+Aquí puedes descargar el ebook <star/>.
+<button>
+<text>Haz clic aquí</text>
+<url>https://play.google.com/store/search?q=<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Ebook</pattern>
+<template>
+<condition name="it">
+<li value="*"><srai>¿Que ebook necesitas? <get name="it"/></srai></li>
+<li>¿Que ebook necesitas?</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>¿Que ebook necesitas?</that>
+<template>
+<srai>Necesito el ebook <star/></srai>
+</template>
+</category>
+<!-- cursos -->
+<category>
+<pattern>Necesito cursos sobre  *</pattern>
+<template>
+Aquí puedes comprar el curso sobre <star/>.
+<button>
+<text>Haz clic aquí </text>
+<url>https://www.emagister.com/web/search/?q=<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Necesito cursos*</pattern>
+<template>
+<think><set name="it"><star/></set></think>
+Aquí puedes comprar el curso <star/>.
+<button>
+<text>Haz clic aquí</text>
+<url>https://www.emagister.com/web/search/?q=<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Cursos</pattern>
+<template>
+<condition name="it">
+<li value="*"><srai>¿Sobre que necesitas el curso? <get name="it"/></srai></li>
+<li>¿Sobre que necesitas el curso?</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>¿Sobre que necesitas el curso?</that>
+<template>
+<srai>Necesito cursos sobre <star/></srai>
+</template>
+</category>
+<!-- Vuelos -->
+<category>
+<pattern>Necesito un vuelo desde  *</pattern>
+<template>
+Aquí puedes comprar un vuelo desde <star/>.
+<button>
+<text>Haz clic aquí </text>
+<url>https://www.kayak.es/explore/<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Necesito un vuelo desde*</pattern>
+<template>
+<think><set name="it"><star/></set></think>
+Aquí puedes comprar un vuelo desde <star/>.
+<button>
+<text>Haz clic aquí</text>
+<url>https://www.kayak.es/explore/<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Vuelo</pattern>
+<template>
+<condition name="it">
+<li value="*"><srai>¿Desde donde necesitas coger el vuelo? <get name="it"/></srai></li>
+<li>¿Desde donde necesitas coger el vuelo?</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>¿Desde donde necesitas coger el vuelo?</that>
+<template>
+<srai>Necesito un vuelo desde <star/></srai>
+</template>
+</category>
+<!-- Hoteles -->
+<category>
+<pattern>Necesito un hotel en  *</pattern>
+<template>
+Aquí puedes reservar una habitación en un hotel en <star/>.
+<button>
+<text>Haz clic aquí </text>
+<url>https://www.viajeselcorteingles.es/hoteles/espana/<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Necesito un hotel fuera de españa como por ejemplo*</pattern>
+<template>
+<think><set name="it"><star/></set></think>
+Aquí puedes reservar una habitación en un hotel en <star/>.
+<button>
+<text>Haz clic aquí</text>
+<url>https://www.viajeselcorteingles.es/hoteles/<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Necesito un hotel fuera de espanya como por ejemplo  *</pattern>
+<template>
+Aquí puedes reservar una habitación en un hotel en <star/>.
+<button>
+<text>Haz clic aquí </text>
+<url>https://www.viajeselcorteingles.es/hoteles/<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Necesito un hotel en*</pattern>
+<template>
+<think><set name="it"><star/></set></think>
+Aquí puedes reservar una habitación en un hotel en <star/>.
+<button>
+<text>Haz clic aquí</text>
+<url>https://www.viajeselcorteingles.es/hoteles/espana/<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Hotel</pattern>
+<template>
+<condition name="it">
+<li value="*"><srai>¿Donde necesitas el hotel? <get name="it"/></srai></li>
+<li>¿Donde necesitas el hotel?</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>¿Donde necesitas el hotel?</that>
+<template>
+<srai>Necesito un hotel en <star/></srai>
+</template>
+</category>
+<!-- Coches -->
+<category>
+<pattern>Necesito alquilar un coche en  *</pattern>
+<template>
+Aquí puedes alquilar un coche en <star/>.
+<button>
+<text>Haz clic aquí </text>
+<url>https://www.rentalcars.com/es/city/es/<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Necesito alquilar un coche en*</pattern>
+<template>
+<think><set name="it"><star/></set></think>
+Aquí puedes alquilar un coche en <star/>.
+<button>
+<text>Haz clic aquí</text>
+<url>https://www.rentalcars.com/es/city/es/<star/></url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Coche</pattern>
+<template>
+<condition name="it">
+<li value="*"><srai>¿Donde necesitas alquilar un coche? <get name="it"/></srai></li>
+<li>¿Donde necesitas alquilar un coche?</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>¿Donde necesitas alquilar un coche?</that>
+<template>
+<srai>Necesito alquilar un coche en <star/></srai>
+</template>
+</category>
+</aiml>

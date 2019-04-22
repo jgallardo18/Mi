@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+        <!-- Saludos -->
+  <category>
+      <pattern>Hola</pattern>
+
+      <template>
+         <random>
+            <li> Hola!, en que puedo ayudarle </li>
+            <li> Hola!, buenas, en que puedo ayudarle </li>
+            <li> Hola!, que tal, que necesitas </li>
+            <li> Hola!, que necesitas </li>
+         </random>
+      </template>
+      </category>    
+      <category>
+      <pattern>Buenos dias</pattern>
+
+      <template>
+         <random>
+            <li> Buenos dias, en que puedo ayudarle? </li>
+            <li> Buenos dias, que necesitas? </li>
+         </random>
+      </template>
+      </category>
+      
+<category>
+      <pattern>Buenas noches</pattern>
+
+      <template>
+         <random>
+            <li> Buenas noches, en que puedo ayudarle? </li>
+            <li> Buenas noches, que necesitas? </li>
+         </random>
+      </template>
+      </category>
+      
+      <category>
+      <pattern>Buenas tardes</pattern>
+
+      <template>
+         <random>
+            <li> Buenas tardes, en que puedo ayudarle? </li>
+            <li> Buenas tardes, que necesitas? </li>
+         </random>
+      </template>
+      </category>
+            <!-- DIA -->
+      <category> 
+      <pattern>Que dia es hoy</pattern>
+      <template> 
+        <random> 
+          <li>Hoy es <date locale="es_ES" timezone="+1" format="%A"/> <date locale="es_ES" timezone="+1" format="%d"/>.</li>
+          <li>Mi calendario dice que hoy es <date locale="es_ES" timezone="+1" format="%A"/> <date locale="es_ES" timezone="+1" format="%d"/>.</li>
+        </random>
+      </template>
+    </category>
+  
+    
+</aiml>
